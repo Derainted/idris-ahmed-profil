@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="homepage-main">
+        <nav class="main-page-nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <ul>
+                <li><a class="active" href="index.html">Startsida</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="feature-column">
+                <h1>KONTAKT</h1>
+            </section>
+
+
+
+
+            <div class="wrapper-contact">
+                <h2>SKRIV TILL MIG HÄR</h2>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="name">Namn</label>
+                        <input type="text" name="Name" id="name" placeholder="Först och Efternamn" required minlength="3"
+                            maxlength="25" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-post</label>
+                        <input type="email" name="Email" id="email" placeholder="Idris@domain.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Medelande</label>
+                        <textarea name="Message" id="message" rows="5"
+                            placeholder="Skriv medelande här...."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit"><i class="far fa-paper-plane"></i>Skicka</button>
+                    </div>
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+
+            <footer>
+                <h3>Living, learning & leveling up one day at a time</h3>
+                <div class="social-media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <br>
+                <p>Handcrafted by me © Idris</p>
+
+            </footer>
+        </main>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
